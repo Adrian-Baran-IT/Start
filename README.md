@@ -1,12 +1,12 @@
 Zadanie 1 
 
-Zpullowanie zmian pracy domowej do siebie na branch 
+Zpullowanie zmian pracy domowej do siebie na branch/ ok
 
-Wypelnic podstawowe Tagi glowne zawartoscia
+Wypelnic podstawowe Tagi glowne zawartoscia/dokonczyc
 
-Napisac tresci na podstawowa strone internetowoa
+Napisac tresci na podstawowa strone internetowoa/dokonczyc
 
-Temat strony
+Temat strony/ok
 
 Opanowac podstawowe komendy Gita
 
