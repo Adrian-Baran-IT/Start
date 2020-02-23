@@ -1,73 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>7SGOT</title>
-    <link rel="shortcut icon" href="images\7sgotNnaszywka.jpeg">
-</head>
+  <body>
+    <nav id="navigation" class="navigation">
+      <div class="navigationLogo">
+        <img src="images/7SGOT_logo.jpg" alt="logo" width="150" height="150" />
+      </div>
+      <div class="navigationLinks">
+        <a href="#">Strona Główna</a>
+        <a href="#aboutUs">O nas</a>
+        <a href="#sectionAlfa">Sekcja Alfa</a>
+        <a href="#sectionBravo">SekcjaBravo</a>
+        <a href="#sectionTeam">Członkowie</a>
+        <a href="#sectionEvent"
+          >Impprezy<br />w jakich<br />
+          braliśmy udział</a
+        >
+        <!-- Kontener -->
+      </div>
 
-    <body>
-    <header>
-        <h1>7
-            S-pecjalna
-            G-rupa
-            O-peracji
-            T-aktycznych</h1>  
-            <h2>Dołącz do nas!</h2>
-            <div class="heroImage">
-                <a href=""><img src=images\7sgotNnaszywka.jpeg></a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="sekcjaAlfa.html">Sekcja Alfa</a></li>
-                    <li><a href="sekcjaBravo.html">Sekcja Bravo</a></li>
-                    <li><a href="index.html">Strona główna</a></li>
-                </ul>   
-              </nav>
-      
-        
-        <!-- Naglowek -->
-         
+      <!-- Nawigacja -->
+    </nav>
+
+    <header class="heroSection">
+      <div class="heroImage">
+        <img
+          src="images/7sgot_baner.jpg"
+          alt="headerBaner"
+          height="300"
+          width="800"
+        />
+        <!-- Kontener -->
+      </div>
+      <div class="headerContent">
+        <h1>7SGOT</h1>
+        <h2>7 Sezon Gry O Tron</h2>
+      </div>
+      <!-- Naglowek -->
     </header>
-        <img src="images\główne.jpg"  alt="Sekcja Bravo podczas treningu z czarnej taktyki na zdjęciu B02, B03 i B04" width="800" height="600" >
-            <p>Skecja Bravo podczas treningu z czarnej taktyki </p>
-        
-    
-        <p>7 SGOT, to Specjalna Grupa Operacji Taktycznych, <strong>która kładzie duży nacisk na treningi i doskonalenie swoich
-            umiejętności w dziedzinie czarnej i zielonej taktyki oraz strategii na polu walki ASG.</strong> Jesteśmy ekipą dobrych
-            znajomych,
-            którzy razem podzielają pasję do airsoftu. <strong>Wyznacznikiem skuteczności nie jest dla Nas ujednolicenie wyposażenia
-            i
-            umundurowania, a indywidualne zdolności każdego członka i umiejętność wykorzystania ich podczas rozgrywek.</strong> W
-            Naszej
-            drużynie panuje delikatna unifikacja sprzętu pod względem używanego kamuflażu, mimo to pozostawiamy dużą
-            możliwość
-            indywidualizacji wyposażenia. Działamy głównie na terenie województwa Kujawsko-Pomorskiego oraz Pomorskiego, w
-            miastach
-            Toruń (sekcja Alpha) i Gdańsk (sekcja Bravo) jednak bierzemy udział w wydarzeniach na terenie całego kraju.</p>
-    
-        <section></section>
-        
-           
-        <div>
-            <img src="images\WOŚÞ.jpeg" alt="7SGOT podczas WOŚP" width="800" height="600" >
-        Jako ekipa Airsoft`owa zajmujemy się głównie rozgrywkami asg,
-        lecz bierzemy też czynny udział min. w obchodach Święta niepodległości oraz WOŚP`u
-            <img src="images\dzienNiepodleglosci.jpeg" alt="7SGOT podczas 11 listopada" width="800" height="600">
-        </div>
-    <footer>
-        <ul>
-         <li> 
-             <a href=https://www.youtube.com/channel/UCHaUwAhKy8q7VCOvk89lbmg>Nasz kanał na YouTube</a>
-         </li>
-         <li> 
-             <a href=https://pl-pl.facebook.com/7SGOT/>Nasz Facebook</a>
-         </li>
-         <!-- Stopka -->
 
+    <section id="aboutUs">
+      <h1>O Nas</h1>
+      <p>
+        7 SGOT, to Specjalna Grupa Operacji Taktycznych, która kładzie duży
+        nacisk na treningi i doskonalenie swoich umiejętności w dziedzinie
+        czarnej i zielonej taktyki oraz strategii na polu walki ASG. Jesteśmy
+        ekipą dobrych znajomych, którzy razem podzielają pasję do airsoftu.
+        Wyznacznikiem skuteczności nie jest dla Nas ujednolicenie wyposażenia i
+        umundurowania, a indywidualne zdolności każdego członka i umiejętność
+        wykorzystania ich podczas rozgrywek. W Naszej drużynie panuje dowolność
+        w kwestii wyglądu i stylizacji. Działamy głównie na terenie województwa
+        Kujawsko-Pomorskiego, jednak bierzemy udział w wydarzeniach na terenie
+        całego kraju
+      </p>
+      <div class="aboutImage">
+        <img src="images/7sgot_abouImage.jpg" alt="aboutImage" height="300" />
+      </div>
+      <!-- Sekcja -->
+    </section>
+
+    <form class="sectionForm">
+      <h1>Kontakt z nami</h1>
+      <h2>wypełnij formularz aby się z nami skontaktowac</h2>
+      <div class="formList">
+        <ul>
+          <li><input type="text" placeholder="Imie" /></li>
+          <li><input type="text" placeholder="Nazwisko" /></li>
+          <li><input type="email" placeholder="email" /></li>
+          <li><input type="message" placeholder="Napisz Wiadomośc" /></li>
+        </ul>
+      </div>
+      <!-- Formularz -->
+    </form>
+
+    <footer class="sectionFooter">
+      <span
+        >--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</span
+      >
+      <!-- Odzielenie stopki -->
+      <h3>7 SGOT</h3>
+      <p>Czekamy właśnie na Ciebie</p>
+>>>>>>> e7f5335e2ccc0260349b1f160cd9210ddfeaf275
+
+      <h3>Kontakt z nami</h3>
+      <a href="gmail.com" target="_blak">email</a>
+      <!-- Stopka -->
     </footer>
 </body>
 </html>
