@@ -3,21 +3,48 @@ body
     background-color:#01200dec;
     font-family:Verdana;
     font-size:20px;
-    color:rgb(170, 165, 165);
+    color:#aaa5a5;
+    width: 1500px;
+    margin-left:auto;
+    margin-right:auto;
 }
 h1
 {
     font-size:65px;
 }
-a:link
+#navigation
 {
-    color:pink;
+    background-color:#338b10 ;
+    width: auto;
+    height:30px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    padding:20px;
+
 }
-a:visited
+#navigationlogo
 {
-    color:pink;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
 }
-a:hover
+.navigation
 {
-    color:red;
+    float:left;
+    min-width:60px;
+    height:30px;
+    font-size:15px;
+    padding:7px;
+    border-right: 2px dotted#000000;
+    opacity:0.8;
+}
+.navigation:hover
+{
+    background-color:#091b05;
+    cursor:pointer;
+}
+#aboutUs
+{
+    background-color:#58df23;
 }
