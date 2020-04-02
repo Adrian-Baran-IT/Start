@@ -1,76 +1,48 @@
 body
 {
-    background-color:#01200dec;
-    font-family:Verdana;
-    font-size:20px;
-    color:#aaa5a5;
-    width: auto;
-    margin-left:auto;
-    margin-right:auto;
+    background-color: #012200;
+    font-family: 'Times New Roman', sans-serif;
 }
-h1
+#container
 {
-    font-size:80px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-h2
-{
-    font-size:60px;
-    margin-left: 20px;
-    margin-right: 20px;
-} margin-left: 20px;
-margin-right: 20px;
-h3
-{
-    font: size 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+width: 1500px;
+margin-left: auto;
+margin-right: auto;
 }
 #navigation
 {
-    background-color:#338b10 ;
-    width: auto;
-    height:30px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:30px;
-    padding:20px;
-}
-#navigationlogo
-{
-    width:auto;
-    margin-left:auto;
-    margin-right:auto;
+background-color: tan;
+margin-top: 20px;
+padding: 10px;
+color: rgb(19, 19, 19);
+height: 50px;
+opacity: 0.8;
+
 }
 .navigation
 {
-    float:left;
-    min-width:60px;
-    height:30px;
-    font-size:15px;
-    padding:7px;
-    border-right: 2px dotted#000000;
-    opacity:0.8;
+float: left;
+min-width: 50px;
+border-right: 3px solid black;
+height: 25px;
+padding: 10px;
+font-size: 18px;
 }
 .navigation:hover
 {
-    background-color:red;
-    cursor:pointer;
+    background-color: rgb(44, 32, 16);
+    cursor: pointer;
 }
-.navigation:link
+#sidebar
 {
-    background: #091b05;
-    cursor:pointer;
-}
-.navigation:visited
-{
-   background-color:black
-}
-#aboutUs
-{
-    background-color:#58df23;
-    color: black;
-    margin-left: 20px;
-    margin-right: 20px;
+    float: left;
+    width: 148px;
+    min-height: 620px;
+    padding: 20px;
+    background-color: tan;
+    text-align: center;
+    font-size: 18px;
+    border-right:3px solid black;
+    opacity: 0.8;
+    height: max-content;
 }
